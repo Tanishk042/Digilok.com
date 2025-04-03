@@ -114,7 +114,7 @@
 
 @media (min-width: 768px) {
     .max-w-7xl {
-        max-width: 7xl;
+        max-width: 80rem; /* Changed from invalid '7xl' to a valid value */
         padding: 1.5rem;
     }
 }
@@ -152,13 +152,13 @@
     }
 }
 
-/* Flex column adjustment */
-.flex-col {
+/* Responsive flex adjustment */
+.responsive-flex {
     flex-direction: column;
 }
 
 @media (min-width: 768px) {
-    .flex-col {
+    .responsive-flex {
         flex-direction: row;
     }
 }
